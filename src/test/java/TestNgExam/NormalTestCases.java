@@ -37,4 +37,9 @@ public class NormalTestCases {
         System.out.println("priorityDemo_H");
     }
 
+    @Test(priority = 9)
+    public void priorityDemo_H(){
+        System.out.println("priorityDemo_N");
+    }
+
 }
